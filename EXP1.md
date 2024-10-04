@@ -1,7 +1,7 @@
 # Ex.No: 1 Write programs in Python Language to demonstrate the working of followingconstructs with possible test cases: a) do…while b) while…do c) if …else d) switch e) for 
 
 ### DATE:                                                                       
-### REGISTER NUMBER : 212221040126
+### REGISTER NUMBER : 212221040073
 
 ### AIM:  
 To write python programs for do…while, while, for, switch and if…else and test with possible test 
