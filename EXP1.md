@@ -13,10 +13,10 @@ Cases
 3. Write simple program for each construct.
 4.  the program with possible test cases.
 5. Stop the program.
-### Program:
 
+### Program:
+### do…while
 ```
-##do…while
 def display():
     start = input("Enter a positive value for START: ")
     end = input("Enter a positive value for END: ")
@@ -34,8 +34,10 @@ def display():
 
 display()
 ```
+### Output:
+![STL 01A](https://github.com/user-attachments/assets/1cd97bdc-c6bd-4fed-9cc2-cb92601d2369)
+ ### while
 ```
- ##while
 start=input("Enter a positive value for START: ")
 end=input("Entera positive value for END: ")
 if start.isnumeric() and end.isnumeric():
@@ -48,27 +50,12 @@ if start.isnumeric() and end.isnumeric():
 else:
     print("Enter a valid positive number.")
 ```
+### Output:
+![STL 01B](https://github.com/user-attachments/assets/4fe75f84-856e-491c-ae99-dc2225514e4b)
+![STL 01 b](https://github.com/user-attachments/assets/cd745beb-1db8-4eab-a44c-8e36d78b9566)
+
+### if else
 ```
-
-###switch\
-def switch():
-    switcher = {
-        0: "even",
-        1: "odd"
-    }
-
-    n = input('Enter a value for N: ')
-    try:
-        n = int(n)
-        print(switcher[n % 2])
-    except ValueError:
-        print("Enter a valid number.")
-
-switch()
-```
-```
-
-##ifelse
 def compare():
     a = input("Enter a value for A: ")
     b = input("Enter a value for B: ")
@@ -90,9 +77,29 @@ def compare():
 
 compare()
 ```
+### Output:
+![STL 01D](https://github.com/user-attachments/assets/9125819e-35db-4250-89d9-336f4f04022b)
+### switch
 ```
+def switch():
+    switcher = {
+        0: "even",
+        1: "odd"
+    }
 
-##for
+    n = input('Enter a value for N: ')
+    try:
+        n = int(n)
+        print(switcher[n % 2])
+    except ValueError:
+        print("Enter a valid number.")
+
+switch()
+```
+### Output:
+![STL 01C](https://github.com/user-attachments/assets/4b2df571-633c-496e-a41b-3ecf0240bc3e)
+### for
+```
 def iterate():
     string = input("Enter a string: ")
     for i in string:
@@ -100,36 +107,7 @@ def iterate():
 
 iterate()
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Output:
-
-![Screenshot 2024-08-23 105409](https://github.com/user-attachments/assets/62b431f6-331b-40fe-b380-a35d262d1f70)
-
-![Screenshot 2024-08-23 105421](https://github.com/user-attachments/assets/ded320c9-830f-46fd-a8a1-20735f971320)
-![Screenshot 2024-08-23 112030](https://github.com/user-attachments/assets/b4a23cd6-d69a-4858-b3e2-c30a5a6d5555)
-![Screenshot 2024-08-23 112048](https://github.com/user-attachments/assets/1901e89b-5ef2-439f-92e1-2de79ea90e5e)
-
-![Screenshot 2024-09-20 103151](https://github.com/user-attachments/assets/700bd3bc-b9f6-4cc5-86e8-7f0ba7683d67)
-![Screenshot 2024-09-20 103708](https://github.com/user-attachments/assets/5b48bb1b-2fa8-46e7-8618-b7cd43890c56)
-![Screenshot 2024-09-20 104217](https://github.com/user-attachments/assets/cc1a8e4f-2311-41db-b947-74cd3fed5a00)
-
-![Screenshot 2024-09-20 104302](https://github.com/user-attachments/assets/84916d83-b4e6-4e32-8f35-fbfa01417880)
-
-
-
+![STL 01E](https://github.com/user-attachments/assets/6678bdad-8da4-49fb-a251-50f73b383b5a)
 ### Result:
 Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully.
