@@ -9,7 +9,7 @@ Write a Python program to check whether the string is Palindrome and generate te
 2. Get an input from the user by prompting 
 3. Run a loop form 0 to len/2.
 4. Check if the characters are the same both from the start and the end till len/2. 
-5. If it is, return the result that it is a palindrome.
+5. If it is, return the result that it is a palindrome. 
 6. Else, return that it is not a palindrome. 
 7. Stop the program.
 ### Program:
